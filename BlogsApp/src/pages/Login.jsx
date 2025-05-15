@@ -22,7 +22,7 @@ const Login = ()=> {
             <form action="" className="loginForm">
                 <div className="loginData">
                     <label htmlFor="userName">UserName</label>
-                    <input type="userName" name="userName" value={userName} onChange={(e)=>{setUserName(e.currentTarget.value)}} />
+                    <input type="userName" name="userName" placeholder="Username with two numbers" value={userName} onChange={(e)=>{setUserName(e.currentTarget.value)}} />
                 </div>
 
                 <div className="loginData">
