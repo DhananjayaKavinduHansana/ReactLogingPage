@@ -1,0 +1,38 @@
+.navContainer{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 40px;
+    margin: 20px;
+    background-color: rgb(90, 167, 231);
+    border-radius: 70px;
+}
+
+.navContainer h1 {
+    color: white;
+}
+
+.navPannel{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.navLink{
+    color: white;
+    background-color: rgb(230, 143, 30);
+    padding: 8px 15px;
+    border: 0;
+    border-radius: 5px;
+    box-shadow: 10px rgba(125, 125, 125, 0.661);
+    transition: will change;
+}
+
+.navLink:hover {
+    cursor: pointer;
+    scale: 110%;
+    transition: all ease 300ms;
+    background-color: rgb(245, 192, 122);
+}

@@ -1,0 +1,10 @@
+.blogContainer{
+    display: flex;
+    max-width: 600px;
+    flex-direction: column;
+    margin: auto;
+}
+
+.blogBody{
+    text-align: justify;
+}
