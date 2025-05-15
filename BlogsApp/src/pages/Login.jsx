@@ -27,7 +27,7 @@ const Login = ()=> {
 
                 <div className="loginData">
                     <label htmlFor="pswd">Password</label>
-                    <input type="password" name="pswd" value={password} onChange={(e)=>{setPassword(e.currentTarget.value)}} />
+                    <input type="password" name="pswd" placeholder="Mininum 8 characters" value={password} onChange={(e)=>{setPassword(e.currentTarget.value)}} />
                 </div>
                 <button>Login</button>
             </form>

@@ -17,7 +17,9 @@ body{
 .loginForm{
     display: flex;
     flex-direction: column;
-    background-color: #ffffffc1;
+    align-items: center;
+    justify-content: center;
+    background-color: #ffffffc2;
     width: 400px;
     height: 400px;
     padding: 20px;
@@ -28,6 +30,10 @@ body{
 }
 h1{
     color: #ffffff;
+    padding: 10px;
+    background-color: #00111d;
+    border-radius: 5px;
+    width: 10%;
 }
 
 .loginData{
@@ -37,13 +43,15 @@ h1{
     justify-content: space-around;
     gap: 15px;
     padding: 10px;
+    width: 90%;
+    font-weight: bolder;
 
 }
 
 input {
-	background-color: #00000044;
-    color: rgb(255, 255, 255);
-	border: none;
+	background-color: #ffffff;
+    color: #00111d;
+	border: 2px solid #06b1d3;
 	border-radius: 30px;
 	padding: 12px 15px;
 	margin: 5px 0;
@@ -67,6 +75,6 @@ button{
 }
 
 button:hover{
-    background-color: #9ed422;
-    color: #679105;
+    background-color: #ffffffc2;
+    color: #1c2702;
 }
