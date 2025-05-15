@@ -8,6 +8,8 @@ const Login = ()=> {
     const [userName, setUserName] = useState('');
     const [password, setPassword] = useState("");
 
+    console.log(userName, password);
+
     // const handleUserName = (e)=> {
 
     //     setUserName(e.currentTarget.value);
